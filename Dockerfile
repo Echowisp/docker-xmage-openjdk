@@ -4,8 +4,8 @@ FROM openjdk:8-jre-alpine
 
 # Build and config ENVs
 
-ENV JAVA_MIN_MEMORY=256M \
-	JAVA_MAX_MEMORY=512M \
+ENV JAVA_MIN_MEMORY=1024M \
+	JAVA_MAX_MEMORY=1536M \
     GLIBC_VERSION=2.27-r0 \
 	GLIBC_REPO=https://github.com/sgerrand/alpine-pkg-glibc \
     LANG=C.UTF-8 \
